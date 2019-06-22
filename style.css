@@ -1,0 +1,333 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	margin: auto;
+	width: 980px;
+}
+
+h2 {
+	text-transform: uppercase;
+}
+
+.logoFlex {
+	display: flex;
+	justify-content: space-between;
+}
+
+header {
+	background-color: yellow;
+	padding: 29px 20px;
+}
+
+header input {
+	background: #333333;
+	padding: 10px 30px;
+	;
+	color: aliceblue;
+	margin-top: 10px;
+	border-radius: 15px
+}
+
+header span {
+	text-align: right;
+}
+
+.telNumber {
+	display: block;
+}
+
+.toOrder {
+	background-image: url(img/BG.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-top: 166px;
+	padding-bottom: 100px;
+}
+
+.toOrderContent {
+	display: flex;
+	justify-content: space-between;
+}
+
+.toOrderImgTwo {
+	text-align: right;
+	padding-top: 20px;
+}
+
+.toOrderText p:first-child {
+	font-size: 32px;
+	font-weight: bold;
+	line-height: 68px;
+}
+
+.second {
+	font-size: 24px;
+}
+
+#yellow {
+	color: #ffdc00;
+}
+
+#white {
+	color: #fff;
+}
+
+#upPrice {
+	position: relative;
+}
+
+#lightgray {
+	color: lightgray;
+}
+
+.redLine {
+	position: absolute;
+	bottom: -5px;
+}
+
+.redLine img {
+	width: 100%;
+	transform: rotate(340deg);
+}
+
+.clock {
+	display: flex;
+}
+
+h2 {
+	text-align: center;
+	padding: 56px 0 0 0;
+}
+
+.yellowHr {
+	width: 20%;
+	margin: 20px auto;
+	background: yellow;
+	height: 2px;
+}
+
+.characteristicItem {
+	display: flex;
+	justify-content: space-between;
+}
+
+.characteristic p {
+	color: grey;
+	font-size: 12px;
+	line-height: 28px;
+}
+
+.equipment p {
+	font-style: 16px;
+	line-height: 28px;
+}
+
+.characteristicItemOne div:not(:first-child) {
+	margin-top: 20px;
+}
+
+.characteristicItem h4 {
+	padding: 10px 0;
+}
+
+.equipment {
+	width: 50%;
+}
+
+.characteristicItemthree {
+	padding-top: 40px;
+}
+
+.characteristicItemOne,
+.characteristicItemTwo {
+	width: 33%;
+}
+
+.yellowBtn {
+	background: yellow;
+	margin: auto;
+	display: block;
+	padding: 15px 70px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	color: #333333;
+	font-weight: bold;
+	font-size: 1.3em;
+}
+
+.reason {
+	display: flex;
+	padding-top: 50px;
+	align-items: baseline;
+}
+
+.reason h5 {
+	color: #ffdc00;
+	padding: 20px 0;
+}
+
+.reasonTitle {
+	width: 25%;
+}
+
+.reasonTitle div {
+	text-align: center;
+}
+
+.video {
+	margin: auto;
+	width: 60%;
+}
+
+video {
+	width: 100%;
+}
+
+.economy {
+	display: flex;
+}
+
+.doubleImg {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+.economy .economyItem:first-child {
+	margin-right: 50px;
+}
+
+.economyItem p {
+	text-align: center;
+	padding-bottom: 20px;
+	text-transform: uppercase;
+	line-height: 1.5em;
+}
+
+.lowerCase {
+	font-size: 12px;
+}
+
+.feedBack span {
+	font-weight: bolder;
+	font-size: 3em;
+}
+
+.feedBack {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.imgContainer div:first-child {
+	border: 2px solid yellow;
+}
+
+.circleBox {
+	text-align: center;
+	padding-top: 20px;
+}
+
+.feedBack .feedBackItem:not(:first-child) {
+	margin-left: 20px;
+}
+
+.guarantees {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	padding-top: 50px;
+}
+.guarantees div p{
+	color: #ffdc00;
+	padding-top: 10px;
+	font-weight: bold;
+	padding-bottom: 80px;
+}
+.guaranteesItem {
+	text-align: center;
+}
+.guaranteesBlock ul{
+	margin: 20px 0;
+}
+.delivery {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 20px;
+}
+.deliveryItems ul li{
+	line-height: 1.5em;
+}
+.form {
+	display: flex;
+	justify-content: space-around;
+	padding-bottom: 130px;
+	padding-top: 40px;
+}
+
+.form .dotItem {
+	color: black;
+}
+
+#plus {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.formItem {
+	width: 40%;
+}
+
+.formItem div:first-child img {
+	width: 100%;
+}
+form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+form input {
+	display: block;
+	margin: 10px 0;
+	height: 50px;
+	width: 70%;
+	border-radius: 5px;
+	padding-left: 10px;
+}
+
+.formItem div:last-child {
+	display: flex;
+}
+
+.clock {
+	margin: 20px 0 0 0;
+}
+
+.clockItem {
+	background: #333333;
+	color: #fff;
+	margin: 0 5px;
+	padding: 10px;
+	border-radius: 5px;
+	font-weight: bolder;
+	font-size: 2em;
+}
+
+.dotItem {
+	padding: 10px;
+	color: #fff;
+	font-weight: bolder;
+	font-size: 2em;
+}
+
+footer {
+	display: flex;
+	height: 125px;
+	background: lightgrey;
+	justify-content: center;
+	align-items: center;
+}
