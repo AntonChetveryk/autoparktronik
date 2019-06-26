@@ -340,6 +340,15 @@ footer {
 }
 
 @media(max-width: 320px){
+	h2{
+		font-size: 0.7em;
+	}
+	h3,h5{
+		text-align: center;
+	}
+	h4{
+		font-size: 0.8em;
+	}
 	.container{
 		width: 300px;
 	}
@@ -381,5 +390,72 @@ footer {
 		display: block;
 		bottom: 20%;
 	}
-	
+	.characteristicItem{
+		flex-direction: column;
+	}
+	.characteristic img{
+		width: 100%;
+	}
+	.characteristicItemOne, .characteristicItemTwo, .characteristicItemthree{
+		width: 100%;
+		text-align: center;
+		line-height: 0.5em;
+	}
+	.reason{
+		flex-direction: column;
+		align-items: center;
+	}
+	.reasonTitle{
+		width: 100%;
+	}
+	.bamper img{
+		width: 100%;
+	}
+	.economy{
+		flex-direction: column;
+	}
+	.economyImg{
+		width: 100%;
+	}
+	.economy .economyItem:first-child {
+     margin-right: 0;
+}
+	.feedBack{
+		flex-direction: column;
+	}
+	.arrow{
+		display: none;
+	}
+	.guarantees{
+		flex-direction: column;
+		align-items: center;
+		margin: auto;
+	}
+	.delivery{
+		flex-direction: column;
+	}
+	.form{
+		flex-direction: column;
+		padding-bottom: 20px;
+	}
+	.formItem{
+		width: 100%;
+	}
+	.form img{
+		width: 100%;
+	}
+	#plus{
+		width: 20px;
+		height: 20px;
+	}
+	#lastPriceFlex{
+		flex-direction: column;
+		position: relative;
+		margin-bottom: 30px;
+	}
+	#lastPrice{
+		width: 80px;
+		position: absolute;
+		bottom: -30px;
+	}
 }
