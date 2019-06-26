@@ -2,7 +2,6 @@
 	margin: 0;
 	padding: 0;
 }
-
 .container {
 	margin: auto;
 	width: 980px;
@@ -242,26 +241,32 @@ video {
 	align-items: flex-end;
 	padding-top: 50px;
 }
-.guarantees div p{
+
+.guarantees div p {
 	color: #ffdc00;
 	padding-top: 10px;
 	font-weight: bold;
 	padding-bottom: 80px;
 }
+
 .guaranteesItem {
 	text-align: center;
 }
-.guaranteesBlock ul{
+
+.guaranteesBlock ul {
 	margin: 20px 0;
 }
+
 .delivery {
 	display: flex;
 	justify-content: space-between;
 	padding-top: 20px;
 }
-.deliveryItems ul li{
+
+.deliveryItems ul li {
 	line-height: 1.5em;
 }
+
 .form {
 	display: flex;
 	justify-content: space-around;
@@ -285,11 +290,13 @@ video {
 .formItem div:first-child img {
 	width: 100%;
 }
-form{
+
+form {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
+
 form input {
 	display: block;
 	margin: 10px 0;
@@ -330,4 +337,49 @@ footer {
 	background: lightgrey;
 	justify-content: center;
 	align-items: center;
+}
+
+@media(max-width: 320px){
+	.container{
+		width: 300px;
+	}
+	.tel{
+		display: none;
+	}
+	.toOrder{
+		padding-bottom: 30px;
+	}
+	.toOrderContent{
+		flex-direction: column;
+	}
+	.toOrderContent img{
+		width: 100%;
+	}
+	.clockItem{
+		margin: auto;
+	}
+	.toOrderText p:first-child {
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 40px;
+	margin-bottom: 20px; 
+}
+	.second {
+	font-size: 16px;
+}
+	.toOrderImg{
+		position: relative;
+	}
+	.toOrderImgTwo{
+		position: relative;
+		display: flex;
+		justify-content: flex-end;
+	}
+	.toOrderImgTwo img{
+		width: 20%;
+		position: absolute;
+		display: block;
+		bottom: 20%;
+	}
+	
 }
