@@ -2,6 +2,7 @@
 	margin: 0;
 	padding: 0;
 }
+
 .container {
 	margin: auto;
 	width: 980px;
@@ -339,121 +340,121 @@ footer {
 	align-items: center;
 }
 
-@media(max-width: 320px){
-	h2{
+@media(max-width: 320px) {
+	h2 {
 		font-size: 0.7em;
 	}
-	h3,h5{
+	h3,
+	h5 {
 		text-align: center;
 	}
-	h4{
+	h4 {
 		font-size: 0.8em;
 	}
-	.container{
+	.container {
 		width: 300px;
 	}
-	.tel{
+	.tel {
 		display: none;
 	}
-	.toOrder{
+	.toOrder {
 		padding-bottom: 30px;
 	}
-	.toOrderContent{
+	.toOrderContent {
 		flex-direction: column;
 	}
-	.toOrderContent img{
+	.toOrderContent img {
 		width: 100%;
 	}
-	.clockItem{
+	.clockItem {
 		margin: auto;
 	}
 	.toOrderText p:first-child {
-	font-size: 20px;
-	font-weight: bold;
-	line-height: 40px;
-	margin-bottom: 20px; 
-}
-	.second {
-	font-size: 16px;
-}
-	.toOrderImg{
-		position: relative;
+		font-size: 20px;
+		font-weight: bold;
+		line-height: 40px;
+		margin-bottom: 20px;
 	}
-	.toOrderImgTwo{
+	.second {
+		font-size: 16px;
+	}
+	.toOrderImgTwo {
 		position: relative;
 		display: flex;
 		justify-content: flex-end;
 	}
-	.toOrderImgTwo img{
+	.toOrderImgTwo img {
 		width: 20%;
 		position: absolute;
 		display: block;
 		bottom: 20%;
 	}
-	.characteristicItem{
+	.characteristicItem {
 		flex-direction: column;
 	}
-	.characteristic img{
+	.characteristic img {
 		width: 100%;
 	}
-	.characteristicItemOne, .characteristicItemTwo, .characteristicItemthree{
+	.characteristicItemOne,
+	.characteristicItemTwo,
+	.characteristicItemthree {
 		width: 100%;
 		text-align: center;
 		line-height: 0.5em;
 	}
-	.reason{
+	.reason {
 		flex-direction: column;
 		align-items: center;
 	}
-	.reasonTitle{
+	.reasonTitle {
 		width: 100%;
 	}
-	.bamper img{
+	.bamper img {
 		width: 100%;
 	}
-	.economy{
+	.economy {
 		flex-direction: column;
 	}
-	.economyImg{
+	.economyImg {
 		width: 100%;
 	}
 	.economy .economyItem:first-child {
-     margin-right: 0;
-}
-	.feedBack{
+		margin-right: 0;
+	}
+	.feedBack {
 		flex-direction: column;
 	}
-	.arrow{
+	.arrow {
 		display: none;
 	}
-	.guarantees{
+	.guarantees {
 		flex-direction: column;
 		align-items: center;
 		margin: auto;
 	}
-	.delivery{
+	.delivery {
 		flex-direction: column;
 	}
-	.form{
+	.form {
 		flex-direction: column;
 		padding-bottom: 20px;
 	}
-	.formItem{
+	.formItem {
 		width: 100%;
 	}
-	.form img{
+	.form img {
 		width: 100%;
 	}
-	#plus{
+	#plus {
 		width: 20px;
 		height: 20px;
 	}
-	#lastPriceFlex{
+	#lastPriceFlex {
 		flex-direction: column;
 		position: relative;
 		margin-bottom: 30px;
 	}
-	#lastPrice{
+	#lastPrice {
 		width: 80px;
 		position: absolute;
 		bottom: -30px;
