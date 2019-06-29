@@ -62,9 +62,8 @@ header span {
 	font-weight: bold;
 	line-height: 68px;
 }
-
-.second {
-	font-size: 24px;
+.toOrderImgTwoMobile{
+	display: none;
 }
 
 .yellow {
@@ -330,7 +329,7 @@ form input {
 
 .dotItem {
 	padding: 10px;
-	color: #fff;
+	color: #333333;
 	font-weight: bolder;
 	font-size: 2em;
 }
@@ -362,6 +361,10 @@ footer {
 	}
 	.toOrder {
 		padding-bottom: 30px;
+		padding-top: 30px
+	}
+	.toOrderImgOne{
+		display: none;
 	}
 	.toOrderContent {
 		flex-direction: column;
@@ -369,24 +372,38 @@ footer {
 	.toOrderContent img {
 		width: 100%;
 	}
+	.yellowSecond{
+		display: none;
+	}
+	.clock{
+		margin: auto;
+		padding-top: 10px;
+	}
+	.dotItem{
+		font-size: 1.5em;
+		padding: 5px;
+	}
 	.clockItem {
 		margin: auto;
+		font-size: 1.2em;
+		padding: 8px;
 	}
 	.toOrderText p:first-child {
-		font-size: 20px;
+		font-size: 1.5em;
 		font-weight: bold;
 		line-height: 40px;
 		margin-bottom: 20px;
+		text-align: center;
 	}
-	.second {
-		font-size: 16px;
+	.toOrderImgTwo{
+		display: none;
 	}
-	.toOrderImgTwo {
+	.toOrderImgTwoMobile {
 		position: relative;
 		display: flex;
 		justify-content: flex-end;
 	}
-	.toOrderImgTwo img {
+	.toOrderImgTwoMobile img {
 		width: 20%;
 		position: absolute;
 		display: block;
