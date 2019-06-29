@@ -379,7 +379,7 @@ footer {
 		display: none;
 	}
 	.clock{
-		margin: auto;
+		justify-content: center;
 		padding-top: 10px;
 	}
 	.dotItem{
