@@ -5,7 +5,7 @@
 
 .container {
 	margin: auto;
-	width: 900px;
+	width: 80%;
 }
 
 h2 {
@@ -114,12 +114,17 @@ h2 {
 .characteristicItem {
 	display: flex;
 	justify-content: space-between;
+	padding-bottom: 20px;
 }
 
 .characteristic p {
 	color: grey;
 	font-size: 12px;
 	line-height: 28px;
+}
+
+.characteristic img{
+	width: 100%;
 }
 
 .equipment p {
