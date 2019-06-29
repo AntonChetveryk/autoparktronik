@@ -94,7 +94,7 @@ header span {
 
 .clock {
 	display: flex;
-	margin: 20px;
+	margin: 20px 0;
 	width: 60%;
 }
 
@@ -281,7 +281,10 @@ video {
 	padding-bottom: 130px;
 	padding-top: 40px;
 }
-
+.form .clock{
+	width: 100%;
+	justify-content: center;
+}
 .form .dotItem {
 	color: black;
 }
