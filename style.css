@@ -195,6 +195,7 @@ video {
 
 .economy {
 	display: flex;
+	justify-content: space-around;
 }
 
 .doubleImg {
