@@ -5,7 +5,7 @@
 
 .container {
 	margin: auto;
-	width: 980px;
+	width: 900px;
 }
 
 h2 {
@@ -67,7 +67,7 @@ header span {
 	font-size: 24px;
 }
 
-#yellow {
+.yellow {
 	color: #ffdc00;
 }
 
@@ -79,7 +79,7 @@ header span {
 	position: relative;
 }
 
-#lightgray {
+.lightgray {
 	color: lightgray;
 }
 
@@ -95,6 +95,8 @@ header span {
 
 .clock {
 	display: flex;
+	margin: 20px;
+	width: 60%;
 }
 
 h2 {
@@ -311,10 +313,6 @@ form input {
 	display: flex;
 }
 
-.clock {
-	margin: 20px 0 0 0;
-}
-
 .clockItem {
 	background: #333333;
 	color: #fff;
@@ -340,7 +338,7 @@ footer {
 	align-items: center;
 }
 
-@media(max-width: 320px) {
+@media(max-width: 780px) {
 	h2 {
 		font-size: 0.7em;
 	}
@@ -352,7 +350,7 @@ footer {
 		font-size: 0.8em;
 	}
 	.container {
-		width: 300px;
+		width: 80%;
 	}
 	.tel {
 		display: none;
