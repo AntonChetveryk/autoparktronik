@@ -95,7 +95,6 @@ header span {
 .clock {
 	display: flex;
 	margin: 20px 0;
-	width: 60%;
 }
 
 h2 {
@@ -388,7 +387,7 @@ footer {
 		padding: 5px;
 	}
 	.clockItem {
-		margin: auto;
+		margin-right: 5px;
 		font-size: 1.2em;
 		padding: 8px;
 	}
