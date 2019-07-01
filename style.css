@@ -162,6 +162,7 @@ h2 {
 	color: #333333;
 	font-weight: bold;
 	font-size: 1.3em;
+	border: 0;
 }
 
 .reason {
@@ -405,6 +406,9 @@ footer {
 		position: relative;
 		display: flex;
 		justify-content: flex-end;
+	}
+	.toOrderImgOneMobile{
+		display: block;
 	}
 	.toOrderImgTwoMobile img {
 		width: 20%;
