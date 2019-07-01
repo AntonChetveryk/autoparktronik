@@ -62,7 +62,7 @@ header span {
 	font-weight: bold;
 	line-height: 68px;
 }
-.toOrderImgTwoMobile{
+.toOrderImgOneMobile, .toOrderImgTwoMobile{
 	display: none;
 }
 
