@@ -214,6 +214,12 @@ video {
 	text-transform: uppercase;
 	line-height: 1.5em;
 }
+.economy img{
+	width: 100%;
+}
+#economyPlus{
+	width: 40px;
+}
 
 .lowerCase {
 	font-size: 12px;
