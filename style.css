@@ -5,7 +5,7 @@
 
 .container {
 	margin: auto;
-	width: 80%;
+	width: 70%;
 }
 
 h2 {
@@ -41,6 +41,7 @@ header span {
 
 .toOrder {
 	background-image: url(img/BG.png);
+	opacity: 0.9;
 	background-size: cover;
 	background-repeat: no-repeat;
 	padding-top: 166px;
@@ -49,7 +50,7 @@ header span {
 
 .toOrderContent {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 
 .toOrderImgTwo {
